@@ -11,6 +11,15 @@ export default class App extends React.Component{
       padding: "10px"
     };
 
+    var outputStyle = {
+      width: "400px",
+      height: "50vh",
+      backgroundColor: "#DCDCDC",
+      marginLeft: "auto",
+      marginRight: "auto",
+      padding: "10px"
+    }
+
     return (
       <div className="App">
         <div className="container">
@@ -42,6 +51,7 @@ export default class App extends React.Component{
                     Markdown Preview
                   </Badge>
                 </h4>
+                <div style={outputStyle}></div>
             </div>
           </div>
         </div>
